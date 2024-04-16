@@ -4,7 +4,7 @@ import Nav from "./components/Nav.tsx";
 function App() {
   return (
     <div className=" w-full h-screen bg-blue-800 text-white text-4xl flex justify-center gap-2 content-center p-2">
-      <div className="menu-model w-1/12">
+      <div className="menu-model w-1/12 box-border">
         <Nav />
       </div>
       <div className="display w-8/12 bg-white h-full rounded-3xl"></div>

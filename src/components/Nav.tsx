@@ -11,6 +11,21 @@ function Nav() {
           LinkMemo
         </span> */}
       </p>
+
+      <div className="btn-sections h-5/6 flex justify-center flex-col">
+        <p className=" hover:bg-blue-900 rounded-3xl w-full h-24 duration-150 cursor-pointer flex justify-center content-center  items-center">
+          a
+        </p>
+        <p className=" hover:bg-blue-900 rounded-3xl w-full h-24 duration-150 cursor-pointer flex justify-center content-center  items-center">
+          a
+        </p>
+        <p className=" hover:bg-blue-900 rounded-3xl w-full h-24 duration-150 cursor-pointer flex justify-center content-center items-center">
+          a
+        </p>
+        <p className=" hover:bg-blue-900 rounded-3xl w-full h-24 duration-150 cursor-pointer flex justify-center content-center items-center">
+          a
+        </p>
+      </div>
     </div>
   );
 }
