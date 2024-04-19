@@ -14,7 +14,9 @@ function App() {
         <Chat />
         <Input />
       </div>
-      <div className="info w-3/12 bg-white rounded-3xl"></div>
+      <div className="info w-3/12 bg-white rounded-3xl overflow-hidden">
+        <Info />
+      </div>
     </div>
   );
 }
