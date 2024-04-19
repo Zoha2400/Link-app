@@ -4,7 +4,7 @@ function Info() {
   return (
     <div className="w-full h-full relative text-black">
       <div className="pers-info flex justify-center items-center gap-3 flex-col pt-5">
-        <div className="img w-80 h-80 bg-gray-600 rounded-full">
+        <div className="img w-80 h-80 bg-gray-600 rounded-full hover:rounded-3xl duration-700 ease-in-out">
           <img src="" alt="" />
         </div>
         <div className="text-info flex justify-center flex-col">
