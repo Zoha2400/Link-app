@@ -25,8 +25,10 @@ function Info() {
       </div>
 
       <div className="buttons absolute flex justify-center gap-2 text-lg items-center flex-col bottom-0 p-5 z-30  w-full h-auto">
-        <button className="change w-10/12 bg-gray-300 rounded-lg">FAQ</button>
-        <button className="change w-10/12 bg-red-400 text-white rounded-lg">
+        <button className="change w-10/12 bg-gray-300 hover:shadow-lg hover:w-11/12 duration-100 rounded-lg">
+          FAQ
+        </button>
+        <button className="change w-10/12 bg-red-400 hover:shadow-lg hover:bg-red-500 hover:w-11/12 duration-100 text-white rounded-lg">
           Quit account
         </button>
       </div>
