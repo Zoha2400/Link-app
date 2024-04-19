@@ -1,4 +1,4 @@
-import React from "react";
+import { Icon } from "@iconify/react";
 
 function Nav() {
   return (
@@ -14,16 +14,16 @@ function Nav() {
 
       <div className="btn-sections h-5/6 flex justify-center flex-col">
         <p className=" hover:bg-blue-900 rounded-3xl w-full h-24 duration-150 cursor-pointer flex justify-center content-center  items-center">
-          a
+          <Icon icon="ic:baseline-fullscreen" />
         </p>
         <p className=" hover:bg-blue-900 rounded-3xl w-full h-24 duration-150 cursor-pointer flex justify-center content-center  items-center">
-          a
+          <Icon icon="ic:sharp-notifications" />
         </p>
         <p className=" hover:bg-blue-900 rounded-3xl w-full h-24 duration-150 cursor-pointer flex justify-center content-center items-center">
-          a
+          <Icon icon="ic:baseline-settings" />
         </p>
         <p className=" hover:bg-blue-900 rounded-3xl w-full h-24 duration-150 cursor-pointer flex justify-center content-center items-center">
-          a
+          <Icon icon="ic:baseline-account-circle" />
         </p>
       </div>
     </div>

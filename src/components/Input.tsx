@@ -1,4 +1,4 @@
-import React from "react";
+import { Icon } from "@iconify/react";
 
 function Input() {
   return (
@@ -9,7 +9,9 @@ function Input() {
           className="w-11/12 rounded-3xl p-6 text-xl font-light border-none outline-none"
           placeholder="Send something..."
         />
-        <button className="w-1/12 hover:bg-blue-700 hover:text-white duration-100 rounded-3xl">></button>
+        <button className="w-1/12 hover:bg-blue-700 hover:text-white duration-100 rounded-3xl flex justify-center items-center">
+          <Icon icon="ic:baseline-send" />
+        </button>
       </div>
     </div>
   );
