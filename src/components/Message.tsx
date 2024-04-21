@@ -24,7 +24,7 @@ function Message() {
 
   return (
     <div
-      className="w-full pt-5 pb-5 p-10 bg-white mt-5 text-xl flex justify-center items-start flex-col duration-75"
+      className="w-full pt-5 pb-5 p-10 bg-white mt-5 text-xl flex justify-center items-start flex-col duration-300"
       onMouseDown={handleMouseDown}
       onMouseMove={handleMouseMove}
       onMouseUp={handleMouseUp}
