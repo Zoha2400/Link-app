@@ -28,7 +28,7 @@ function Message() {
 
   return (
     <div
-      className="w-full h-auto pt-5 pb-5 p-10 bg-white text-xl flex justify-center items-start flex-col duration-200"
+      className="w-full h-auto pt-5 pb-5 p-10 text-xl font-light flex justify-center items-start flex-col duration-200"
       onMouseDown={handleMouseDown}
       onMouseMove={handleMouseMove}
       onMouseUp={handleMouseUp}
@@ -42,7 +42,7 @@ function Message() {
         danced in the twilight. It was a moment of serenity, a pause in the
         chaos of life.
       </div>
-      <div className="date text-sm">14:15</div>
+      <div className="date text-sm mt-2">14:15</div>
     </div>
   );
 }
