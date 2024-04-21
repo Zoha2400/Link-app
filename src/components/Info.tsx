@@ -1,10 +1,11 @@
 import React from "react";
+import { Icon } from "@iconify/react";
 
 function Info() {
   return (
     <div className="w-full h-full relative text-black">
       <div className="pers-info flex justify-center items-center gap-3 flex-col pt-5">
-        <div className="img w-80 h-80 bg-gray-600 rounded-full hover:rounded-3xl duration-700 ease-in-out">
+        <div className="img w-80 h-80 bg-gray-300 rounded-full hover:rounded-3xl duration-700 ease-in-out">
           <img src="" alt="" />
         </div>
         <div className="text-info flex justify-center flex-col">
@@ -17,11 +18,23 @@ function Info() {
           </p>
         </div>
       </div>
-      <div className="info  flex justify-center items-center flex-col *:text-start *:w-10/12 mt-10 *:text-lg *:cursor-pointer *:duration-100">
-        <p className="text-blue-500 hover:ml-5">Links - 1564</p>
-        <p className="text-green-500 hover:ml-5">Messages - 5465</p>
-        <p className="text-gray-500 hover:ml-5">Pictures - 12</p>
-        <p className="text-red-400 hover:ml-5">Files - 57</p>
+      <div className="info  flex justify-center items-center flex-col *:text-start *:w-10/12 mt-10 *:flex *:items-center *:gap-1 *:text-lg *:cursor-pointer *:duration-100">
+        <p className="text-blue-500 hover:ml-5">
+          <Icon icon="ic:baseline-insert-link" />
+          Links - 1564
+        </p>
+        <p className="text-green-500 hover:ml-5">
+          <Icon icon="ic:baseline-message" />
+          Messages - 5465
+        </p>
+        <p className="text-gray-500 hover:ml-5">
+          <Icon icon="ic:baseline-insert-photo" />
+          Pictures - 12
+        </p>
+        <p className="text-red-400 hover:ml-5">
+          <Icon icon="ic:outline-insert-drive-file" />
+          Files - 57
+        </p>
       </div>
 
       <div className="buttons absolute flex justify-center gap-2 text-lg items-center flex-col bottom-0 p-5 z-30  w-full h-auto">
