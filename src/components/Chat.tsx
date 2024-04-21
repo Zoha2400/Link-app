@@ -18,7 +18,16 @@ function Chat() {
         <Icon icon="ic:baseline-chat-bubble" color="#1e40af" />
         Chat
       </h1>
-      <div className="chat-display w-full min-h-screen bg-gray-300 ">
+      <div className="chat-display w-full min-h-6/6 bg-gradient-to-tr mb-40 ">
+        <Message />
+        <Message />
+        <Message />
+        <Message />
+        <Message />
+        <Message />
+        <Message />
+        <Message />
+        <Message />
         <Message />
       </div>
       {/* <p
